@@ -308,6 +308,15 @@ img {
 
  /* filtr */
 
+ .filtr-page {
+    display: flex;
+    justify-content: center;
+    }
+
+.filtr-page .item + .item {
+    margin-left: 8px;
+}
+
 .button-filtr {
     color: #000000;
     background-color: var(--section-two-color);
@@ -336,6 +345,18 @@ img {
 }
 
 /* Works */
+
+.portfolio-works {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -30px;
+    margin-left: -30px;
+    }
+
+    .portfolio-works .item {
+        margin-top: 30px;
+        margin-left: 30px;
+    }
 
 .portfolio-page {
     padding-top: 94px;
