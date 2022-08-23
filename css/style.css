@@ -117,6 +117,7 @@ img {
 }
 
 .auth-nav .link {
+    display: block;
     color: var(--paragraph-text-color);
     padding-top: 32px;
     padding-bottom: 32px;
