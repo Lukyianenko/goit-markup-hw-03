@@ -197,7 +197,7 @@ img {
 }
 
 .features-list .item {
-    flex-basis: calc(100% / 4 - 30px);
+    flex-basis: calc((100% - 30px) / 4);
        }
 
 .features-list .item + .item {
@@ -362,8 +362,8 @@ img {
 /* Works */
 
 .section-portfolio{
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .portfolio-works {
@@ -381,7 +381,6 @@ img {
 
 .conte {
     padding: 24px 20px;
-    width: 370px;
     border-bottom: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
